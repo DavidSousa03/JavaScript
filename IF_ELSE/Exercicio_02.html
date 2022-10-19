@@ -1,0 +1,8 @@
+<script>
+    let minutos = Number(prompt("Digite a quantidade de minutos: "))
+    let valorPago = 50.0
+    if (minutos > 100){
+        valorPago = valorPago + 2 * (minutos - 100)
+    }
+    alert(`Valor a pagar ${valorPago.toFixed(2)}`)
+</script>

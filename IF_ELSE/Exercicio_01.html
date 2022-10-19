@@ -1,0 +1,16 @@
+<script>
+  let one = Number(prompt("Digite a primeira nota: "))
+  let two = Number(prompt("Digite a segunda nota: "))  
+  let three = Number(prompt("Digite a terceira nota: "))
+  let four = Number(prompt("Digite a quarta nota: "))
+  let media = (one + two + three + four )/4
+  if (media >= 6){
+    alert(`NOTA FINAL: ${media.toFixed(1)}`)
+  } else{
+    alert(`
+        NOTA FINAL: ${media.toFixed(1)}\n
+        REPROVADO
+    `)
+  }  
+
+</script>

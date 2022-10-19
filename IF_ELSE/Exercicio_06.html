@@ -1,0 +1,23 @@
+<script>
+    let codigo = Number(prompt("Digite o codigo do produto: "))
+    let qtd = Number(prompt("Digite a quantidade comprada: "))
+
+    if (codigo =="1"){
+        let total = qtd * 5.00
+        alert(`Valor total: R$ ${total.toFixed(2)}`)
+    } else if (codigo == "2"){
+        let total = qtd * 3.50
+        alert(`Valor total: R$ ${total.toFixed(2)}`)
+    } else if (codigo == "3"){
+        let total = qtd * 4.80
+        alert(`Valor total: R$ ${total.toFixed(2)}`)
+    } else if (codigo == "4"){
+        let total = qtd * 8.90
+        alert(`Valor total: R$ ${total.toFixed(2)}`)
+    } else if (codigo == "5"){
+        let total = qtd * 7.32
+        alert(`Valor total: R$ ${total.toFixed(2)}`)
+    } else{
+        alert("CODIGO INVALIDO!")
+    }
+</script>

@@ -1,0 +1,14 @@
+<script>
+    let unidade = Number(prompt("Preco unitario do produto: "))
+    let quantidade = Number(prompt("Quantidade comprada:"))
+    let dinheiro = Number(prompt("Dinheiro recebido: "))
+
+    if (dinheiro>= unidade * quantidade){
+        troco = dinheiro - (unidade * quantidade)
+        alert(`TROCO = R$ ${troco.tofixed(2)}`)
+    } else{
+        resto = unidade * quantidade - dinheiro
+        alert(`DINHEIRO INSUFICIENTE. FALTAM R$ ${resto.toFixed(2)}`)   
+    }
+
+</script>
